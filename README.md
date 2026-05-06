@@ -36,25 +36,6 @@ Main screens:
 - Difficulty Screen
 - Quiz Screen
 - Result Screen
-
-
----
-
-## ⚙️ Setup Instructions
-
-To run the project:
-
-1. Open Android Studio  
-2. Click "Open Project"  
-3. Select the project folder  
-4. Wait for Gradle sync  
-5. Run the app on an emulator or device  
-
-Requirements:
-- Android Studio installed  
-- Kotlin support  
-
-
 ---
 
 ## ⚠️ Known Issues / Limitations
@@ -67,10 +48,7 @@ The project has some limitations and incomplete features:
 
 - Testing was implemented (Unit Testing, ViewModel Testing, Navigation Testing),  
   but when running the tests, the **PC froze**, so screenshots of test results could not be taken
-
-- Android Studio was **heavy on the system**, which affected performance and made it difficult to fully debug or finalize some parts
-
-- Some minor bugs or UI issues may still appear depending on the device
+(Android Studio was **heavy on the system**)
 
 ---
 
