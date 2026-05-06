@@ -4,45 +4,41 @@
 
 Tunisia Heritage Quest is an Android quiz application developed using Kotlin and Jetpack Compose.
 
-The app allows users to identify Tunisian historical monuments from images and answer multiple-choice questions.
+The application allows users to identify Tunisian historical monuments from images and answer multiple-choice questions.
 
 Main features:
 - Image-based quiz
 - 3 difficulty levels (easy, medium, hard)
 - Score system (+10 points per correct answer)
-- Timer per question
 - Progress tracking (mastery percentage)
 - Streak system (number of completed games)
 - Final results with percentage and performance message
 
-The goal of the app is to make learning Tunisian heritage more interactive and engaging.
+Currently, only one category (Roman Heritage) is implemented.
 
 
 ---
 
 ## 🏗️ Architecture Explanation
 
-The application is built using modern Android development components:
+The application follows a simple modern Android architecture:
 
 - **Jetpack Compose**
   - Used to build all UI screens
-  - Makes the interface dynamic and responsive
 
 - **Navigation Component**
-  - Handles movement between screens:
+  - Handles navigation between screens:
     - Splash → Main Menu → Category → Difficulty → Quiz → Result
 
 - **ViewModel**
-  - Manages app data and state
-  - Keeps track of:
+  - Used to manage and store application state:
     - Score
     - Current question index
     - Questions list
     - User answers
 
 - **State Management**
-  - Uses `mutableStateOf`
-  - Automatically updates UI when data changes
+  - Uses `mutableStateOf` to update the UI automatically
 
 - **Data Model**
 ```kotlin
