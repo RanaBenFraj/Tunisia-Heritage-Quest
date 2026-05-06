@@ -1,5 +1,12 @@
 # Tunisia Heritage Quest
 
+## 📌 Repository Contents
+
+This GitHub repository contains:
+- The full project report (including the use of AI section)
+- Screenshots of the application
+- A video demo showing the app functionality
+
 ## 📌 Project Overview
 
 Tunisia Heritage Quest is an Android quiz application developed using Kotlin and Jetpack Compose.
